@@ -1,6 +1,6 @@
 :root{
     --bg-color: #000;
-    --navbar-color: #F07857;
+    --navbar-color: rgba(110, 240, 254);
     --text-color: #F07857;
     --text-color-hover: #ec5930;
     --highlighted-text-color: #fff;
