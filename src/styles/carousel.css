@@ -24,6 +24,25 @@ body, html {
     width: 100%;
 }
 
+.swiper-container .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background-color: var(--text-color);
+}
+
+.swiper-container .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+.swiper-container .swiper-slide-button {
+    color: var(--text-color);
+}
+
+.swiper-container .swiper-slide-button:hover {
+    color: var(--text-color-hover);
+}
+
 @media screen and (max-width: 768px) {
     .swiper-slide-button {
         display: none;
