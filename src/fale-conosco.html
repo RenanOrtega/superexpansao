@@ -20,7 +20,7 @@
     <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <nav class="navbar navbar-expand-lg  navbar-dark">
         <div class="container ">
             <a class="navbar-brand" href="index.html">SuperExpansão</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
@@ -49,54 +49,54 @@
         </div>
     </nav>
 
-    <header class="mt-5 pt-5">
-        <div class="container">
-            <div class="text-center">
-                <h1 class="poppins-bold fs-1">Entre em contato</h1>
-
-                <div class="row row-cols-1 row-cols-md-3 mb-3 mt-5">
-                    <div>
-                        <p class="poppins-bold">Horário</p>
-                        <p class="mt-1">Disponibilidade todos os dias</p>
-                    </div>
-                    <div>
-                        <p class="poppins-bold">Email</p>
-                        <p class="mt-1">contato@superexpansao.com.br</p>
-                    </div>
-                    <div>
-                        <p class="poppins-bold">Telefone</p>
-                        <p class="mt-1">(11) 94517-3799</p>
-                    </div>
-                </div>
-                
-                <div class="mt-5">
-                    <h2>Ficou com alguma dúvida?</h2>
-                    <p class="mt-2">Entre em contato com nossa equipe</p>
+    <main class="container mt-5 pt-5">
+        
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-lg-5" style="max-width: 400px;">
+                <h1 class="poppins-bold fs-1 text-center mb-5">Entre em contato</h1>
+                <div class="glass p-3">
+                    <p class="poppins-bold">Horário</p>
+                    <p class="mt-1">Disponibilidade todos os dias</p>
+                    <p class="poppins-bold mt-3">Email</p>
+                    <p class="mt-1">contato@superexpansao.com.br</p>
+                    <p class="poppins-bold mt-3">Telefone</p>
+                    <p class="mt-1">(11) 94517-3799</p>
                 </div>
             </div>
-            <form class="row g-3 mt-5 mx-auto" style="max-width: 700px;">
-                <div class="col-md-6">
-                  <label for="inputName" class="form-label">Nome *</label>
-                  <input type="text" class="form-control" id="inputName" required>
-                </div>
-                <div class="col-md-6">
-                  <label for="inputLastName" class="form-label">Sobrenome</label>
-                  <input type="text" class="form-control" id="inputLastName">
-                </div>
-                <div class="col-12 mt-3">
-                    <label for="inputEmail" class="form-label">Email *</label>
-                    <input type="email" class="form-control" id="inputEmail" required>
-                  </div>
-                <div class="col-12 mt-3">
-                  <label for="inputMessage" class="form-label">Mensagem *</label>
-                  <textarea class="form-control" id="inputMessage" required style="height: 200px;"> </textarea>
-                </div>
-                <div class="col-12 mt-5 text-center">
-                  <button type="submit" class="btn btn-lg btn-form">Enviar</button>
-                </div>
-              </form>
+            <div class="form-container mt-3 ms-md-3">
+                <h2 class="">Ficou com alguma dúvida?</h2>
+                <p class="mb-4">Entre em contato com nossa equipe</p>
+                <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="b0c4d88a-629c-433d-bc57-d825b868d7fb">
+                    <input type="checkbox" name="botcheck" id="" style="display: none;">
+                    <input type="hidden" name="from_name" value="SuperExpansao">
+                    <input type="hidden" name="subject" value="Contato">
+                    <input type="hidden" name="redirect" value="http://127.0.0.1:5500/src/fale-conosco.html">
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label for="firstName" class="form-label poppins-bold">Nome *</label>
+                            <input type="text" class="form-control" id="firstName" name="name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label poppins-bold">Sobrenome</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label poppins-bold">Email *</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label poppins-bold">Mensagem *</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-form">Enviar</button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </header>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
