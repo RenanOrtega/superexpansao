@@ -25,42 +25,9 @@ body {
     color: var(--highlighted-text-color);
 }
 
-.btn-form {
-    background-color: var(--text-color);
-    color: #fff;
-}
-
-.btn-form:hover {
-    background-color: var(--text-color-hover);
-    color: #fff;
-}
-
-.glass {
+/* .glass {
     background: #232323;
     border-radius: 16px;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-}
-
-.form-container {
-    max-width: 600px;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-@media (max-width: 768px) {
-    .form-container {
-      padding: 15px;
-      margin: 20px;
-    }
-}
-
-@media (max-width: 576px) {
-    body {
-      padding: 10px;
-    }
-    .form-container {
-      padding: 10px;
-      margin: 10px;
-    }
-}
+} */
