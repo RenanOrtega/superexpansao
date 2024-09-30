@@ -38,15 +38,12 @@ body {
 .glass {
     background: #232323;
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    /* border: 1px solid rgba(129, 129, 129, 0.44); */
 }
 
 .form-container {
     max-width: 600px;
-    background-color: #232323;
     padding: 20px;
     border-radius: 8px;
 }
