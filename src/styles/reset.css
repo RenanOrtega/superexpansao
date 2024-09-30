@@ -1,11 +1,7 @@
 :root{
-    --bg-color: #161616;
-    /* --text-color: #fff;
-    --text-color-hover: #5c5c5c;
-    --highlighted-text-color: #F07857; */
-    --text-color: #F07857;
-    --text-color-hover: #ec5930;
-    --highlighted-text-color: #fff;
+	--bg-color: #000000;
+	--text-color: #FF4C00;
+    --text-color-hover: #ff2600;
     --scroll-color: #444444;
 }
 
