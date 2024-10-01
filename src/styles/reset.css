@@ -3,6 +3,7 @@
 	--text-color: #FF4C00;
     --text-color-hover: #ff2600;
     --scroll-color: #444444;
+	--highlighted-text-color: #FFF;
 }
 
 html, body, div, span, applet, object, iframe,

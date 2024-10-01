@@ -15,8 +15,8 @@ body {
 }
 
 .rounded-img {
-    width: 250px;
-    height: 250px;
+    max-width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -25,9 +25,7 @@ body {
     color: var(--highlighted-text-color);
 }
 
-/* .glass {
-    background: #232323;
-    border-radius: 16px;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-} */
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
