@@ -1,0 +1,43 @@
+body {
+    font-family: "helvetica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.navbar-brand,
+.navbar-nav .nav-item .nav-link {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-item .nav-link:hover {
+    color: var(--text-color-hover);
+}
+
+.fb-200{
+    flex-basis: 200px;
+}
+
+.fb-400{
+    flex-basis: 400px;
+}
+
+.rounded-img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.highlighted-text {
+    color: var(--highlighted-text-color);
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: 80ch;
+}
