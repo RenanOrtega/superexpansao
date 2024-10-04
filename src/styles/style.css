@@ -6,6 +6,16 @@ body {
     color: var(--text-color);
 }
 
+.navbar-brand,
+.navbar-nav .nav-item .nav-link {
+    color: var(--text-color);
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-item .nav-link:hover {
+    color: var(--text-color-hover);
+}
+
 .fb-200{
     flex-basis: 200px;
 }
@@ -28,4 +38,5 @@ body {
 .text-justify {
     text-align: justify;
     text-justify: inter-word;
+    max-width: 80ch;
 }
